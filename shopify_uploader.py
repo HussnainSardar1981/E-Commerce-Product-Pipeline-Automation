@@ -76,7 +76,7 @@ for album_index, album_folder in enumerate(os.listdir(ROOT_FOLDER)):
     final_title = f"{brand} {title}"
 
     print(f"\n➡️ Starting upload for album: {album_folder} ({final_title})")  # Print album name and title
-
+    # Your Shopify admin url so you can manually login
     driver.get("https://admin.shopify.com/store/4ydup3-zv/products/new")
     time.sleep(3)
 
