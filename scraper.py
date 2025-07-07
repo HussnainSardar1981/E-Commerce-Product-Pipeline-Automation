@@ -17,7 +17,7 @@ logging.basicConfig(filename='scraper.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # ========== CONFIG ==========
-BASE_URL = "https://luxurysotre999.x.yupoo.com"
+BASE_URL = "https://luxurysotre999.x.yupoo.com" # Chinese Website URL
 TARGET_CATEGORIES = [
    "/categories/2994023",  # Prada Bags
    #  "/categories/3396640"   # Loro Piana Shoes
